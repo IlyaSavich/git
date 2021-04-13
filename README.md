@@ -31,7 +31,13 @@ git config --global alias.draft '!git commit -am "$(git branch --show-current) d
 ```
 
 ### `git undo`
-Commits with draft message
+Resets last commit
 ```
 git config --global alias.undo '!git reset --hard HEAD~1'
+```
+
+### `git clean`
+Remove all changes from working directory
+```
+git config --global alias.clean '!git reset --hard'
 ```
