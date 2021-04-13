@@ -15,7 +15,7 @@ git config --global alias.pu '!git push origin $(git branch --show-current)'
 ### amend
 Amend all changes to previous commit
 ```
-git config --global alias.amend '!git add .'
+git config --global alias.amend '!git add . && git commit --amend'
 ```
 
 ### please
