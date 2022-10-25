@@ -42,7 +42,7 @@ Remove all changes from working directory
 git config --global alias.clean '!git reset --hard'
 ```
 
-### `git fbranch`
+### `git fbranch <branch name>`
 Re-create branch from current
 ```
 git config --global alias.fbranch '!git branch -D $1 && git checkout -b'
